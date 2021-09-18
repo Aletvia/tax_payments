@@ -3,7 +3,7 @@ tax_payments
 API Rest which implements a tax payment service provider.
 
 ## Installation
-Requerimientos:
+Requirements:
 - Entorno virtual (venv)
 - Python 3.7, pip
 
@@ -28,15 +28,14 @@ With these steps we generate access to the libraries necessary for the developme
 
 1. It is necessary to carry out the corresponding migrations, execute the following command in the terminal within the same folder:
 ```shell script
-python src/manage.py makemigrations
-python src/manage.py migrate
+python manage.py makemigrations
+python manage.py migrate
 ```
 2. To run the API tests, run the following command in the terminal within the same folder:
 ```shell script
-src/manage.py test src
+python manage.py runserver
 ```
-3. If everything is fine, you can see the API response in OK
-
+3. If everything is fine, you could access the API.
 
 
 **Endpoints available:**
